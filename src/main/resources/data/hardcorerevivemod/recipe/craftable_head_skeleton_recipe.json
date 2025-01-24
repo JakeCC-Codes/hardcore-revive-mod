@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "group": "craftable_head_variant",
+  "pattern": [
+    "#*#",
+    "&@&",
+    "#*#"
+  ],
+  "key": {
+    "@": "minecraft:skeleton_skull",
+    "#": "minecraft:obsidian",
+    "*": "minecraft:ghast_tear",
+    "&": "minecraft:totem_of_undying"
+  },
+  "result": {
+    "count": 1,
+    "id": "hardcorerevivemod:craftable_head_3d"
+  }
+}

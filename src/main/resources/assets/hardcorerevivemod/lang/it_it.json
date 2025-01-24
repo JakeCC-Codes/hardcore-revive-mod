@@ -1,0 +1,16 @@
+{
+  "item.hardcorerevivemod.craftable_head_3d": "Selettore Capo",
+  "death.hardcorerevivemod.location.message": "Coordinate della morte: [%s %s %s]\nDimensione: %s",
+
+  "menu.head_selection.title": "Seleziona un giocatore",
+  "menu.head_selection.status.true": "%s [Morto]",
+  "menu.head_selection.status.false": "%s [Vivo]",
+
+  "item.lore.reviving_item": "Usato per revivere questo giocatore",
+  "text.actionbar.summoner.error.alive": "Sembra che questo giocatore sia ancora vivo",
+  "text.actionbar.summoner.error.offline": "Sembra che questo giocatore sia assente da questo mondo",
+  "text.actionbar.summoner.error.missing": "Mancano alcune cose...",
+
+  "advancements.adventure.revive_player.description": "Completa con successo un rituale per far rivivere un giocatore",
+  "advancements.adventure.revive_player.title": "Sopravvissuto Rinato"
+}

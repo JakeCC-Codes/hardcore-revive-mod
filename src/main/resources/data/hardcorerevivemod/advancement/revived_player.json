@@ -1,0 +1,30 @@
+{
+  "parent": "minecraft:adventure/kill_a_mob",
+  "criteria": {
+    "revived_player": {
+      "trigger": "hardcorerevivemod:player_revived"
+    }
+  },
+  "display": {
+    "announce_to_chat": true,
+    "description": {
+      "translate": "advancements.adventure.revive_player.description"
+    },
+    "frame": "goal",
+    "hidden": false,
+    "icon": {
+      "count": 1,
+      "id": "minecraft:totem_of_undying"
+    },
+    "show_toast": true,
+    "title": {
+      "translate": "advancements.adventure.revive_player.title"
+    }
+  },
+  "requirements": [
+    [
+      "revived_player"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

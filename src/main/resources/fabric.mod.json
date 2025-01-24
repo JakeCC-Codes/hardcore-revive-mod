@@ -1,0 +1,36 @@
+{
+	"schemaVersion": 1,
+	"id": "hardcorerevivemod",
+	"version": "${version}",
+	"name": "Hardcore Revive Mod",
+	"description": "This mod allows Spectator Players to be revived in your Hardcore World by any Alive Player(s) in the world! by JakeCCz",
+	"authors": [
+		"JakeCCz"
+	],
+	"contact": {
+		"homepage": "https://modrinth.com/mod/hardcore-revive-mod"
+	},
+	"license": "CC0-1.0",
+	"icon": "assets/hardcorerevivemod/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"net.jakeccz.hrm.HardcoreReviveMod"
+		],
+		"client": [
+			"net.jakeccz.hrm.HardcoreReviveModClient"
+		]
+	},
+	"mixins": [
+		"hardcorerevivemod.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.15.11",
+		"minecraft": "~1.21",
+		"java": ">=21",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}
